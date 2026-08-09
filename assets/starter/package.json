@@ -1,0 +1,21 @@
+{
+  "name": "ai-native-html-deck",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "validate": "node tools/validate-deck.mjs dist/index.html",
+    "qa": "npm run build && npm run validate && playwright test"
+  },
+  "dependencies": {
+    "reveal.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
+  }
+}

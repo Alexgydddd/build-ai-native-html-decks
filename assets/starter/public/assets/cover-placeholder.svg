@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080" role="img" aria-label="Abstract AI light field">
+  <defs>
+    <radialGradient id="glow" cx="70%" cy="42%" r="48%">
+      <stop offset="0" stop-color="#ffc861" stop-opacity="0.95"/>
+      <stop offset="0.18" stop-color="#24d7c4" stop-opacity="0.5"/>
+      <stop offset="0.58" stop-color="#3370ff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#06111f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1080" fill="#06111f"/>
+  <circle cx="760" cy="480" r="520" fill="url(#glow)"/>
+  <circle cx="800" cy="470" r="120" fill="none" stroke="#f7fbff" stroke-opacity="0.36" stroke-width="2"/>
+  <circle cx="800" cy="470" r="220" fill="none" stroke="#24d7c4" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M180 780 C420 600 720 930 1120 620" fill="none" stroke="#3370ff" stroke-opacity="0.6" stroke-width="5"/>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI原生HTML演示构建"
+  short_description: "从原始资料自动规划、创建、验收并交付完整HTML演示文稿"
+  default_prompt: "Use $build-ai-native-html-decks to turn the provided materials into a validated HTML presentation."
