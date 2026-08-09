@@ -184,6 +184,6 @@ node scripts/validate_deck.mjs dist/index.html --allow-external
 - 版本变更：见 [CHANGELOG.md](CHANGELOG.md)；
 - 仓库：Alexgydddd/build-ai-native-html-decks。
 
-## 许可证说明
+## 许可证
 
-本仓库目前未附许可证文件。公开可见不等于自动授予再发布、商用或二次分发权利；如需对外授权，请先补充明确的许可证和资产版权说明。
+本仓库采用 [MIT License](LICENSE)。第三方模板、字体、图片、视频和其他素材仍需遵守其各自的版权和许可条件。
